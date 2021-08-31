@@ -3,7 +3,7 @@ data=[
     {
       "id": 1,
       "company": "Photosnap",
-      "logo": "photosnap.svg",
+      "logo": "./images/photosnap.svg",
       "new": true,
       "featured": true,
       "position": "Senior Frontend Developer",
@@ -18,7 +18,7 @@ data=[
     {
       "id": 2,
       "company": "Manage",
-      "logo": "manage.svg",
+      "logo": "./images/manage.svg",
       "new": true,
       "featured": true,
       "position": "Fullstack Developer",
@@ -33,7 +33,7 @@ data=[
     {
       "id": 3,
       "company": "Account",
-      "logo": "account.svg",
+      "logo": "./images/account.svg",
       "new": true,
       "featured": false,
       "position": "Junior Frontend Developer",
@@ -48,7 +48,7 @@ data=[
     {
       "id": 4,
       "company": "MyHome",
-      "logo": "myhome.svg",
+      "logo": "./images/myhome.svg",
       "new": false,
       "featured": false,
       "position": "Junior Frontend Developer",
@@ -63,7 +63,7 @@ data=[
     {
       "id": 5,
       "company": "Loop Studios",
-      "logo": "loop-studios.svg",
+      "logo": "./images/loop-studios.svg",
       "new": false,
       "featured": false,
       "position": "Software Engineer",
@@ -78,7 +78,7 @@ data=[
     {
       "id": 6,
       "company": "FaceIt",
-      "logo": "faceit.svg",
+      "logo": "./images/faceit.svg",
       "new": false,
       "featured": false,
       "position": "Junior Backend Developer",
@@ -93,7 +93,7 @@ data=[
     {
       "id": 7,
       "company": "Shortly",
-      "logo": "shortly.svg",
+      "logo": "./images/shortly.svg",
       "new": false,
       "featured": false,
       "position": "Junior Developer",
@@ -108,7 +108,7 @@ data=[
     {
       "id": 8,
       "company": "Insure",
-      "logo": "insure.svg",
+      "logo": "./images/insure.svg",
       "new": false,
       "featured": false,
       "position": "Junior Frontend Developer",
@@ -123,7 +123,7 @@ data=[
     {
       "id": 9,
       "company": "Eyecam Co.",
-      "logo": "eyecam-co.svg",
+      "logo": "./images/eyecam-co.svg",
       "new": false,
       "featured": false,
       "position": "Full Stack Engineer",
@@ -138,7 +138,7 @@ data=[
     {
       "id": 10,
       "company": "The Air Filter Company",
-      "logo": "the-air-filter-company.svg",
+      "logo": "./images/the-air-filter-company.svg",
       "new": false,
       "featured": false,
       "position": "Front-end Dev",
