@@ -1,0 +1,181 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 1450px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+.container .header{
+    width: 100%;
+    height: 9%;
+    background-color: #40A5A4;
+    
+}
+.container .filter{
+    width: 70%;
+    height: 7%;
+    background-color: white;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: 87px;
+    border: #40A5A4;
+    box-shadow:  #40A5A4 0px 3px 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+    
+}
+.container .filter  .jobs{
+    width: 13%;
+    height: 40%;
+    background-color: hsl(180, 31%, 95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    border-radius: 8px;
+
+}
+.container .filter   .jobs{
+    width: 13%;
+    height: 40%;
+    background-color: hsl(180, 31%, 95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.skill{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.close{
+    width: 30%;
+    background-color:rgb(60, 183, 214);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.close:hover{
+    cursor: pointer;
+}
+.container .boxes{
+    width: 70%;
+    height: 85%;
+    background-color:transparent;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.container .boxes .box{
+    width: 100%;
+    height: 15%;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 26px;
+    display: flex;
+    padding: 10px;
+    box-shadow:  #40A5A4 0px 3px 8px;
+  
+
+}
+.container .boxes .box .part1{
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+  
+
+}
+.container .boxes .box .part1 .logo{
+    width: 27%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .boxes .box .part1 .logo .circle{
+    width: 100px;
+    height: 100px;
+    background: black;
+    border-radius: 50%
+    
+}
+.container .boxes .box .part1 .text{
+    width: 73%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+.container .boxes .box .part1 .text h2,h3,p{
+    margin-left: 10px;
+}
+.container .boxes .box .part2 {
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+
+}
+.container .boxes .box .part1 h3{
+    color:#40A5A4 ;
+}
+.container .boxes .box .part1 p{
+    color:hsl(180, 8%, 52%);
+}
+.container .boxes .box .part2 .button{
+    width: 21%;
+    height: 21%;
+    background-color: hsl(180, 31%, 95%);
+    margin-right: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+.container .boxes .box .part2 .button p{
+    color: #40A5A4;
+}
+.container .boxes .box .part2 .button:hover >p{
+    color: white;
+
+}
+.container .boxes .box .part2 .button:hover {
+    background-color:#40A5A4  ;
+    cursor: pointer;
+}
+/* .boxes.kicik{
+    height: 40%;
+} */
